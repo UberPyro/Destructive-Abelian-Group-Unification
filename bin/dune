@@ -1,0 +1,4 @@
+(executable
+ (public_name dagu)
+ (name main)
+ (libraries dagu))
