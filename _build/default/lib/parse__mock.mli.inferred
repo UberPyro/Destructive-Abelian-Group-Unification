@@ -1,9 +1,0 @@
-type token = VAR of string | UNIFY | TIMES | PLUS | EOF | CONST of int
-val m : (string, unit Abelian.uabel) Hashtbl.t
-val memo : string -> int -> unit Abelian.uabel
-val menhir_begin_marker : int
-val xv_term : unit Abelian.t
-val xv_problem : unit Abelian.t * unit Abelian.t
-val xv_expr_file : unit Abelian.t
-val xv_expr : unit Abelian.t
-val menhir_end_marker : int
